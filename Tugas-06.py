@@ -22,7 +22,7 @@ if aktivitas.lower() == "mau sarapan":
 
 elif aktivitas.lower()== "mau pergi kerja":
    waktu = datetime.now()
-   print("wow, okei! wait, lemme check the time!")
+   print("wow, okei. wait, lemme check the time!")
    print(f"hm... sekarang sudah pukul {waktu}")
 
    if waktu.hour < 08.00:
@@ -31,4 +31,3 @@ elif aktivitas.lower()== "mau pergi kerja":
     print("ehh, sudah jam 08.00 tau, besok-besok lebih awal ya!")
    else:
     print("waduh, ini mah udah telat, gimana sih kamu?! lain kali lebih serius dong!")
-    
